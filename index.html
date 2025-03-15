@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brandy Shoes - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">
+                    <span>B</span>randy
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#products">Shop</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Slider -->
+    <section class="hero" id="home">
+        <div class="hero-slider">
+            <div class="hero-slide" style="background-image: url();">
+                <div class="slide-overlay">
+                    <div class="slide-content">
+                        <h1>Step into Style</h1>
+                        <p>Discover our latest collection of premium footwear designed for comfort and elegance.</p>
+                        <a href="#products" class="slide-btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="hero-slide" style="background-image: url(brandy_logo-removebg-preview.png);">
+                <div class="slide-overlay">
+                    <div class="slide-content">
+                        <h1>New Summer Collection</h1>
+                        <p>Lightweight, breathable designs perfect for the warmer months ahead.</p>
+                        <a href="shop.html" class="slide-btn">Explore Collection</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-slide" style="background-image: url(brandy\ logo.png);">
+                <div class="slide-overlay">
+                    <div class="slide-content">
+                        <h1>Crafted with Care</h1>
+                        <p>Expertly designed shoes made with premium materials and timeless craftsmanship.</p>
+                        <a href="about.html" class="slide-btn">Our Story</a>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <div class="slider-controls">
+            <div class="slider-dot active"></div>
+            <!-- <div class="slider-dot"></div>
+            <div class="slider-dot"></div> -->
+        </div>
+    </section>
+
+    <!-- Featured Categories -->
+    <section class="categories-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Shop by Category</h2>
+            </div>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <img src="s7.jpg" alt="Women's Collection" class="category-img">
+                    <div class="category-overlay">
+                        <h3>Women's Collection</h3>
+                        <a href="#products">Shop Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <img src="s2.jpg" alt="Men's Collection" class="category-img">
+                    <div class="category-overlay">
+                        <h3>Men's Collection</h3>
+                        <a href="#products">Shop Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <img src="s6.jpg" alt="Sport Collection" class="category-img">
+                    <div class="category-overlay">
+                        <h3>Sport Collection</h3>
+                        <a href="#products">Shop Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="products-section" id="products">
+        <div class="container">
+            <div class="section-title">
+                <h2>Featured Products</h2>
+            </div>
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="s4.jpg" alt="Classic Leather Loafer" class="product-img">
+                        <div class="product-badge">New</div>
+                        <div class="product-actions">
+                            <a href="#" class="product-action-btn"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="#" class="product-action-btn"><i class="fas fa-heart"></i></a>
+                            <a href="#" class="product-action-btn"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Women's Shoes</div>
+                        <h3 class="product-title">Classic Leather Loafer</h3>
+                        <div class="product-price">
+                            <span class="current-price">$129.99</span>
+                            <span class="old-price">$149.99</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="s1.jpg" alt="Urban Sneaker" class="product-img">
+                        <div class="product-badge">Sale</div>
+                        <div class="product-actions">
+                            <a href="#" class="product-action-btn"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="#" class="product-action-btn"><i class="fas fa-heart"></i></a>
+                            <a href="#" class="product-action-btn"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Men's Shoes</div>
+                        <h3 class="product-title">Urban Sneaker</h3>
+                        <div class="product-price">
+                            <span class="current-price">$89.99</span>
+                            <span class="old-price">$119.99</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="s7.jpg" alt="Elegant Heel" class="product-img">
+                        <div class="product-actions">
+                            <a href="#" class="product-action-btn"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="#" class="product-action-btn"><i class="fas fa-heart"></i></a>
+                            <a href="#" class="product-action-btn"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Women's Shoes</div>
+                        <h3 class="product-title">Elegant Heel</h3>
+                        <div class="product-price">
+                            <span class="current-price">$149.99</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="s6.jpg" alt="Comfort Sport" class="product-img">
+                        <div class="product-badge">Bestseller</div>
+                        <div class="product-actions">
+                            <a href="#" class="product-action-btn"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="#" class="product-action-btn"><i class="fas fa-heart"></i></a>
+                            <a href="#" class="product-action-btn"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Sport Shoes</div>
+                        <h3 class="product-title">Comfort Sport</h3>
+                        <div class="product-price">
+                            <span class="current-price">$99.99</span>
+                            <span class="old-price">$129.99</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="s5.jpg" alt="Comfort Sport" class="product-img">
+                        <div class="product-badge">Bestseller</div>
+                        <div class="product-actions">
+                            <a href="#" class="product-action-btn"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="#" class="product-action-btn"><i class="fas fa-heart"></i></a>
+                            <a href="#" class="product-action-btn"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Sport Shoes</div>
+                        <h3 class="product-title">Comfort Sport</h3>
+                        <div class="product-price">
+                            <span class="current-price">$99.99</span>
+                            <span class="old-price">$129.99</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Prduct 6 -->
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="s6.jpg" alt="Comfort Sport" class="product-img">
+                        <div class="product-badge">Bestseller</div>
+                        <div class="product-actions">
+                            <a href="#" class="product-action-btn"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="#" class="product-action-btn"><i class="fas fa-heart"></i></a>
+                            <a href="#" class="product-action-btn"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Sport Shoes</div>
+                        <h3 class="product-title">Comfort Sport</h3>
+                        <div class="product-price">
+                            <span class="current-price">$99.99</span>
+                            <span class="old-price">$129.99</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Prduct 7 -->
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="s2.jpg" alt="Comfort Sport" class="product-img">
+                        <div class="product-badge">Bestseller</div>
+                        <div class="product-actions">
+                            <a href="#" class="product-action-btn"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="#" class="product-action-btn"><i class="fas fa-heart"></i></a>
+                            <a href="#" class="product-action-btn"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Sport Shoes</div>
+                        <h3 class="product-title">Comfort Sport</h3>
+                        <div class="product-price">
+                            <span class="current-price">$99.99</span>
+                            <span class="old-price">$129.99</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Prduct 8 -->
+                <div class="product-card">
+                    <div class="product-img-container">
+                        <img src="s1.jpg" alt="Comfort Sport" class="product-img">
+                        <div class="product-badge">Bestseller</div>
+                        <div class="product-actions">
+                            <a href="#" class="product-action-btn"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="#" class="product-action-btn"><i class="fas fa-heart"></i></a>
+                            <a href="#" class="product-action-btn"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Sport Shoes</div>
+                        <h3 class="product-title">Comfort Sport</h3>
+                        <div class="product-price">
+                            <span class="current-price">$99.99</span>
+                            <span class="old-price">$129.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promo Banner -->
+    <section class="promo-banner">
+        <div class="container">
+            <div class="promo-content">
+                <h2>Special Offer</h2>
+                <p>Get 20% off on your first purchase. Use the code below at checkout.</p>
+                <div class="promo-code">BRANDY20</div>
+                <a href="#products" class="slide-btn">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+<section class="about-section" id="about">
+    <div class="container">
+        <div class="section-title">
+            <h2>About Brandy</h2>
+        </div>
+        <div class="about-container">
+            <div class="about-image">
+                <img src="s2.jpg" alt="Brandy Shoes Workshop">
+                <!-- <img src="s2.jpg" alt="Brandy Shoes Workshop"> -->
+            </div>
+            <div class="about-content">
+                <h3>Our Story</h3>
+                <p>Founded in 2018, Brandy began as a small workshop with a big dream: to create stylish, comfortable footwear that stands the test of time. What started as a passion project in a tiny studio in Nepal has grown into a beloved brand known for quality craftsmanship and innovative designs.</p>
+                
+                <h3>Our Mission</h3>
+                <p>At Brandy, we believe that great shoes can change your day. Our mission is to combine premium materials, expert craftsmanship, and thoughtful design to create footwear that enhances your life. We're committed to creating products that are not only beautiful but also comfortable, durable, and responsibly made.</p>
+                
+                
+            </div>
+            
+        </div>
+        <div class="about-difference">
+            
+           
+            <div>
+                <h3>Our Difference</h3>
+                <ul class="about-features">
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>Handcrafted with care by skilled artisans</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>Premium materials sourced from responsible suppliers</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>Innovative designs that prioritize both style and comfort</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>Commitment to fair labor practices and sustainable production</span>
+                    </li>
+                </ul>
+                <a href="#products" class="about-btn">Explore Our Collection</a>
+            </div>
+                
+                
+                <div class="about-image">
+                    <img src="s1.jpg" alt="">
+                </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>What Our Customers Say</h2>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonials-track">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <img src="s2.jpg" alt="Customer" class="testimonial-avatar">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"These are the most comfortable shoes I've ever owned. I can wear them all day without any discomfort. Highly recommend!"</p>
+                            <h4 class="testimonial-name">Sarah Johnson</h4>
+                            <div class="testimonial-title">Verified Customer</div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <img src="s2.jpg" alt="Customer" class="testimonial-avatar">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p class="testimonial-text">"The quality of these shoes is outstanding. They look even better in person than in the photos. Worth every penny!"</p>
+                            <h4 class="testimonial-name">Michael Brown</h4>
+                            <div class="testimonial-title">Verified Customer</div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <img src="s2.jpg" alt="Customer" class="testimonial-avatar">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"I've received so many compliments on my Brandy shoes. They're stylish yet comfortable enough for everyday wear. I'll definitely be buying more!"</p>
+                            <h4 class="testimonial-name">Jessica Lee</h4>
+                            <div class="testimonial-title">Verified Customer</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <div class="testimonial-btn prev-testimonial">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="testimonial-btn next-testimonial">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="section-title">
+                    <h2>Subscribe to Our Newsletter</h2>
+                </div>
+                <p>Stay updated with our latest collections, exclusive offers, and style tips.</p>
+                <form class="newsletter-form">
+                    <input type="email" class="newsletter-input" placeholder="Enter your email address" required>
+                    <button type="submit" class="newsletter-btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+<!-- Contact Section -->
+<section class="contact-section" id="contact">
+    <div class="container">
+        <div class="section-title">
+            <h2>Get In Touch</h2>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-card">
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Our Location</h4>
+                            <p>Brandy City, Nepal</p>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone Number</h4>
+                            <p>+977 2- 976525545</p>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email Address</h4>
+                            <p>info@brandyshoes.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Working Hours</h4>
+                            <p>Sun - Fri: 9am - 6pm<br>Sat: 10am - 4pm</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <div class="contact-card">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Navigation</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#products">Shop</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Collections</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Bestsellers</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Men</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Help</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Connect</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                    <p style="margin-top: 15px;">Subscribe to our newsletter for exclusive offers and updates.</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Brandy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
