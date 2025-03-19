@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 </head>
+
 <body>
     <!-- Header -->
     <header>
@@ -21,6 +23,12 @@
                     <li><a href="#products">Shop</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <li class="cart-icon">
+                        <a href="#" id="cart-toggle">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="cart-count">0</span>
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -29,7 +37,7 @@
     <!-- Hero Slider -->
     <section class="hero" id="home">
         <div class="hero-slider">
-            <div class="hero-slide" style="background-image: url();">
+            <div class="hero-slide" style="background-image: url(); background-color: burlywood">
                 <div class="slide-overlay">
                     <div class="slide-content">
                         <h1>Step into Style</h1>
@@ -38,29 +46,29 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="hero-slide" style="background-image: url(brandy_logo-removebg-preview.png);">
+            <div class="hero-slide" style="background-image: url(); background-color: burlywood;">
                 <div class="slide-overlay">
                     <div class="slide-content">
                         <h1>New Summer Collection</h1>
                         <p>Lightweight, breathable designs perfect for the warmer months ahead.</p>
-                        <a href="shop.html" class="slide-btn">Explore Collection</a>
+                        <a href="#products" class="slide-btn">Explore Collection</a>
                     </div>
                 </div>
             </div>
-            <div class="hero-slide" style="background-image: url(brandy\ logo.png);">
+            <div class="hero-slide" style="background-image: url(); background-color: burlywood ;">
                 <div class="slide-overlay">
                     <div class="slide-content">
                         <h1>Crafted with Care</h1>
                         <p>Expertly designed shoes made with premium materials and timeless craftsmanship.</p>
-                        <a href="about.html" class="slide-btn">Our Story</a>
+                        <a href="#about" class="slide-btn">Our Story</a>
                     </div>
                 </div>
-            </div> -->
+            </div>
         </div>
         <div class="slider-controls">
             <div class="slider-dot active"></div>
-            <!-- <div class="slider-dot"></div>
-            <div class="slider-dot"></div> -->
+            <div class="slider-dot"></div>
+            <div class="slider-dot"></div>
         </div>
     </section>
 
@@ -181,7 +189,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Product 5 -->
                 <div class="product-card">
                     <div class="product-img-container">
@@ -281,60 +289,66 @@
 
 
     <!-- About Section -->
-<section class="about-section" id="about">
-    <div class="container">
-        <div class="section-title">
-            <h2>About Brandy</h2>
-        </div>
-        <div class="about-container">
-            <div class="about-image">
-                <img src="s2.jpg" alt="Brandy Shoes Workshop">
-                <!-- <img src="s2.jpg" alt="Brandy Shoes Workshop"> -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Brandy</h2>
             </div>
-            <div class="about-content">
-                <h3>Our Story</h3>
-                <p>Founded in 2018, Brandy began as a small workshop with a big dream: to create stylish, comfortable footwear that stands the test of time. What started as a passion project in a tiny studio in Nepal has grown into a beloved brand known for quality craftsmanship and innovative designs.</p>
-                
-                <h3>Our Mission</h3>
-                <p>At Brandy, we believe that great shoes can change your day. Our mission is to combine premium materials, expert craftsmanship, and thoughtful design to create footwear that enhances your life. We're committed to creating products that are not only beautiful but also comfortable, durable, and responsibly made.</p>
-                
-                
+            <div class="about-container">
+                <div class="about-image">
+                    <img src="s2.jpg" alt="Brandy Shoes Workshop">
+                    <!-- <img src="s2.jpg" alt="Brandy Shoes Workshop"> -->
+                </div>
+                <div class="about-content">
+                    <h3>Our Story</h3>
+                    <p>Founded in 2018, Brandy began as a small workshop with a big dream: to create stylish,
+                        comfortable footwear that stands the test of time. What started as a passion project in a tiny
+                        studio in Nepal has grown into a beloved brand known for quality craftsmanship and innovative
+                        designs.</p>
+
+                    <h3>Our Mission</h3>
+                    <p>At Brandy, we believe that great shoes can change your day. Our mission is to combine premium
+                        materials, expert craftsmanship, and thoughtful design to create footwear that enhances your
+                        life. We're committed to creating products that are not only beautiful but also comfortable,
+                        durable, and responsibly made.</p>
+
+
+                </div>
+
             </div>
-            
-        </div>
-        <div class="about-difference">
-            
-           
-            <div>
-                <h3>Our Difference</h3>
-                <ul class="about-features">
-                    <li>
-                        <i class="fas fa-check-circle"></i>
-                        <span>Handcrafted with care by skilled artisans</span>
-                    </li>
-                    <li>
-                        <i class="fas fa-check-circle"></i>
-                        <span>Premium materials sourced from responsible suppliers</span>
-                    </li>
-                    <li>
-                        <i class="fas fa-check-circle"></i>
-                        <span>Innovative designs that prioritize both style and comfort</span>
-                    </li>
-                    <li>
-                        <i class="fas fa-check-circle"></i>
-                        <span>Commitment to fair labor practices and sustainable production</span>
-                    </li>
-                </ul>
-                <a href="#products" class="about-btn">Explore Our Collection</a>
-            </div>
-                
-                
+            <div class="about-difference">
+
+
+                <div>
+                    <h3>Our Difference</h3>
+                    <ul class="about-features">
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Handcrafted with care by skilled artisans</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Premium materials sourced from responsible suppliers</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Innovative designs that prioritize both style and comfort</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Commitment to fair labor practices and sustainable production</span>
+                        </li>
+                    </ul>
+                    <a href="#products" class="about-btn">Explore Our Collection</a>
+                </div>
+
+
                 <div class="about-image">
                     <img src="s1.jpg" alt="">
                 </div>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <!-- Testimonials -->
     <section class="testimonials-section">
@@ -355,7 +369,8 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                             </div>
-                            <p class="testimonial-text">"These are the most comfortable shoes I've ever owned. I can wear them all day without any discomfort. Highly recommend!"</p>
+                            <p class="testimonial-text">"These are the most comfortable shoes I've ever owned. I can
+                                wear them all day without any discomfort. Highly recommend!"</p>
                             <h4 class="testimonial-name">Sarah Johnson</h4>
                             <div class="testimonial-title">Verified Customer</div>
                         </div>
@@ -371,7 +386,8 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star-half-alt"></i>
                             </div>
-                            <p class="testimonial-text">"The quality of these shoes is outstanding. They look even better in person than in the photos. Worth every penny!"</p>
+                            <p class="testimonial-text">"The quality of these shoes is outstanding. They look even
+                                better in person than in the photos. Worth every penny!"</p>
                             <h4 class="testimonial-name">Michael Brown</h4>
                             <div class="testimonial-title">Verified Customer</div>
                         </div>
@@ -387,7 +403,8 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                             </div>
-                            <p class="testimonial-text">"I've received so many compliments on my Brandy shoes. They're stylish yet comfortable enough for everyday wear. I'll definitely be buying more!"</p>
+                            <p class="testimonial-text">"I've received so many compliments on my Brandy shoes. They're
+                                stylish yet comfortable enough for everyday wear. I'll definitely be buying more!"</p>
                             <h4 class="testimonial-name">Jessica Lee</h4>
                             <div class="testimonial-title">Verified Customer</div>
                         </div>
@@ -420,88 +437,80 @@
             </div>
         </div>
     </section>
-<!-- Contact Section -->
-<section class="contact-section" id="contact">
-    <div class="container">
-        <div class="section-title">
-            <h2>Get In Touch</h2>
-        </div>
-        <div class="contact-container">
-            <div class="contact-info">
-                <div class="contact-card">
-                    <div class="contact-method">
-                        <div class="contact-icon">
-                            <i class="fas fa-map-marker-alt"></i>
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Our Location</h4>
+                                <p>Brandy City, Nepal</p>
+                            </div>
                         </div>
-                        <div class="contact-details">
-                            <h4>Our Location</h4>
-                            <p>Brandy City, Nepal</p>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone Number</h4>
+                                <p>+977 2- 976525545</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="contact-method">
-                        <div class="contact-icon">
-                            <i class="fas fa-phone"></i>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email Address</h4>
+                                <p>info@brandyshoes.com</p>
+                            </div>
                         </div>
-                        <div class="contact-details">
-                            <h4>Phone Number</h4>
-                            <p>+977 2- 976525545</p>
-                        </div>
-                    </div>
-                    <div class="contact-method">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h4>Email Address</h4>
-                            <p>info@brandyshoes.com</p>
-                        </div>
-                    </div>
-                    <div class="contact-method">
-                        <div class="contact-icon">
-                            <i class="fas fa-clock"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h4>Working Hours</h4>
-                            <p>Sun - Fri: 9am - 6pm<br>Sat: 10am - 4pm</p>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Working Hours</h4>
+                                <p>Sun - Fri: 9am - 6pm<br>Sat: 10am - 4pm</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="contact-form">
-                <div class="contact-card">
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Your Email" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Subject">
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" placeholder="Your Message" required></textarea>
-                        </div>
-                        <button type="submit" class="submit-btn">Send Message</button>
-                    </form>
+                <div class="contact-form">
+                    <div class="contact-card">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Subject">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Send Message</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
     <!-- Footer -->
     <footer>
         <div class="container">
             <div class="footer-content">
-                <div class="footer-column">
-                    <h3>Navigation</h3>
-                    <ul class="footer-links">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#products">Shop</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
+                
                 <div class="footer-column">
                     <h3>Collections</h3>
                     <ul class="footer-links">
@@ -541,7 +550,87 @@
 
 
 
+    <!-- Add this cart overlay after the footer -->
+    <div class="cart-overlay" id="cart-overlay">
+        <div class="cart-container">
+            <div class="cart-header">
+                <h3>Your Shopping Cart</h3>
+                <button class="close-cart" id="close-cart">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="cart-items" id="cart-items">
+                <!-- Cart items will be added here dynamically -->
+                <div class="empty-cart-message">Your cart is empty</div>
+            </div>
+            <div class="cart-summary">
+                <div class="subtotal">
+                    <span>Subtotal:</span>
+                    <span id="cart-subtotal">$0.00</span>
+                </div>
+                <div class="cart-buttons">
+                    <a href="#" class="view-cart-btn">View Cart</a>
+                    <a href="#" class="checkout-btn">Checkout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+<!-- Add this quick view modal for products -->
+<div class="product-modal" id="product-modal">
+    <div class="modal-container">
+        <button class="close-modal" id="close-modal">
+            <i class="fas fa-times"></i>
+        </button>
+        <div class="modal-content">
+            <div class="modal-image">
+                <img id="modal-product-image" src="" alt="Product">
+            </div>
+            <div class="modal-details">
+                <div id="modal-product-category" class="product-category"></div>
+                <h2 id="modal-product-title" class="modal-title"></h2>
+                <div class="modal-price">
+                    <span id="modal-current-price" class="current-price"></span>
+                    <span id="modal-old-price" class="old-price"></span>
+                </div>
+                <div class="product-description">
+                    <p>Experience ultimate comfort and style with these premium quality shoes. Designed for everyday use with durable materials and ergonomic support.</p>
+                </div>
+                <div class="product-size">
+                    <h4>Select Size</h4>
+                    <div class="size-options">
+                        <button class="size-btn">5</button>
+                        <button class="size-btn">6</button>
+                        <button class="size-btn">7</button>
+                        <button class="size-btn">8</button>
+                        <button class="size-btn">9</button>
+                        <button class="size-btn">10</button>
+                    </div>
+                </div>
+                <div class="product-quantity">
+                    <h4>Quantity</h4>
+                    <div class="quantity-selector">
+                        <button id="decrease-qty">-</button>
+                        <input type="number" id="product-qty" value="1" min="1" max="10">
+                        <button id="increase-qty">+</button>
+                    </div>
+                </div>
+                <button id="add-to-cart-btn" class="add-to-cart-btn">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
 
     <script src="script.js"></script>
 </body>
+
 </html>
