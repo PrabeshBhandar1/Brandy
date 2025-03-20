@@ -129,6 +129,8 @@ nav {
     font-size: 3rem;
     margin-bottom: 20px;
     animation: fadeInDown 0.5s ease-out;
+    padding-top: 100px;
+    
 }
 
 .slide-content p {
