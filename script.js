@@ -328,7 +328,17 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
+
+
+
+
+
+
+
     // Add to cart functionality
+
+
+    
     addToCartBtn.addEventListener('click', function () {
         if (!currentProduct.size) {
             alert('Please select a size');

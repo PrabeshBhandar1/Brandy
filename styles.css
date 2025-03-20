@@ -71,7 +71,9 @@ nav {
 .cart-count {
     position: absolute;
     top: -5px;
-    right: -5px;
+    /* right: -1px;
+     */
+     left: 13px;
     background-color: #ff6b6b;
     color: white;
     font-size: 10px;
@@ -82,6 +84,15 @@ nav {
     justify-content: center;
     align-items: center;
 }
+
+
+
+
+
+
+
+
+
 /* Hero Slider Styles */
 .hero {
     position: relative;
@@ -174,6 +185,24 @@ nav {
 .slider-dot.active {
     background-color: white;
 }
+
+.hero-slide video{
+    display: block;
+}
+
+@media (max-width: 1500px) {
+    .hero-slide video{
+        display: none;
+    }
+    
+}
+
+
+
+
+
+
+
 
 /* Animations */
 @keyframes fadeInDown {
