@@ -144,6 +144,13 @@ nav {
     
 }
 
+@media (max-width: 768px) {
+    .slide-content h1{
+        padding-top: 0;
+    }
+    
+}
+
 .slide-content p {
     font-size: 1.2rem;
     margin-bottom: 30px;
@@ -190,7 +197,7 @@ nav {
     display: block;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1300px) {
     .hero-slide video{
         display: none;
     }
